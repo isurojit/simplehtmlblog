@@ -1,0 +1,42 @@
+body{/*coustom body as bellow*/
+	border: 20px solid #bdc3c7;
+	margin-left: 18%;
+	margin-right: 18%;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 1% 3% 1% 3%;
+}
+h4{/*coustom h4 tag as bellow*/
+	text-transform: uppercase;
+	color: #3498db;
+	letter-spacing: 2px;
+}
+h1{/*coustom h1 tag as bellow*/
+	color: #2c3e50;
+}
+.border{/*to change the first paragraph*/
+	border-left: 7px solid #bdc3c7;
+	padding-left: 1%;
+}
+.para1{/*to chnage the first div content*/
+	padding-bottom: 20px;
+}
+
+/* coustom hr content by Harry Roberts */
+
+hr{
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
